@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Natalie Shaw | Web Developer & WordPress Specialist</title>
+  <meta name="description" content="Natalie Shaw — Web developer and WordPress specialist. I build responsive, conversion-focused websites and maintain high-performance WordPress stores." />
+  <link rel="icon" href="favicon.png" />
+  <meta name="theme-color" content="#0a0f1a" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Skip link for keyboard users -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- HEADER / NAV -->
+  <header class="header" role="banner" aria-label="Primary header">
+    <div class="container nav-inner">
+      <a class="brand" href="#home" aria-label="Go to homepage">Natalie<span class="brand-accent">Shaw</span></a>
+
+      <nav class="nav" role="navigation" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <!-- HERO -->
+    <section id="home" class="hero section" aria-labelledby="hero-heading">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1 id="hero-heading" class="hero-title">Hello, I'm <strong class="accent">Natalie Shaw</strong></h1>
+          <p class="hero-sub">Creative Web Developer & WordPress Specialist — crafting fast, conversion-driven websites.</p>
+          <p class="hero-lead">I design responsive websites and WooCommerce stores that blend beautiful interfaces with performance and accessibility.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">See my work</a>
+            <a class="btn ghost" href="#contact">Hire me</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <!-- decorative SVG / CSS graphics could go here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about reveal" aria-labelledby="about-heading">
+      <div class="container about-inner">
+        <h2 id="about-heading" class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>I'm a dedicated <strong>WordPress developer</strong> specializing in custom themes, WooCommerce stores, and performance-first builds. I handle full site builds, migrations, plugin integration, maintenance, and optimization.</p>
+
+            <h3 class="subhead">WordPress Expertise</h3>
+            <ul class="skills-list">
+              <li>WordPress setup & custom theme development</li>
+              <li>WooCommerce store builds & checkout optimization</li>
+              <li>Elementor & page-builder customization</li>
+              <li>Plugin integration & small plugin development</li>
+              <li>Security hardening, backups & migrations</li>
+              <li>Performance tuning & Core Web Vitals</li>
+            </ul>
+
+            <h3 class="subhead">Technical stack</h3>
+            <ul class="skills-list">
+              <li>HTML5 / CSS3 / JS (ES6+)</li>
+              <li>React / Next.js (headless WP)</li>
+              <li>Shopify & Liquid</li>
+              <li>Accessibility (WCAG basics)</li>
+            </ul>
+          </div>
+
+          <aside class="about-contacts" aria-label="Contact details">
+            <p><strong>Email</strong></p>
+            <p><a href="mailto:natalieshawweb@gmail.com">natalieshawweb@gmail.com</a></p>
+
+            <p><strong>WhatsApp</strong></p>
+            <p><a href="https://wa.me/2347062320132" target="_blank" rel="noopener">+234 706 232 0132</a></p>
+
+            <p><strong>Availability</strong></p>
+            <p>Remote / Agency & Freelance</p>
+            <a class="btn primary full" href="#contact">Hire me</a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section services reveal" aria-labelledby="services-heading">
+      <div class="container">
+        <h2 id="services-heading" class="section-title">Services</h2>
+        <div class="services-grid">
+          <article class="service-card" aria-labelledby="svc-wp">
+            <h3 id="svc-wp">WordPress Development</h3>
+            <p>Custom themes, Gutenberg/Elementor templates, plugin work, and WooCommerce stores tuned for conversions.</p>
+          </article>
+
+          <article class="service-card" aria-labelledby="svc-design">
+            <h3 id="svc-design">Web Design</h3>
+            <p>UI-focused design with responsive layouts, accessible mark-up, and conversion-first UX patterns.</p>
+          </article>
+
+          <article class="service-card" aria-labelledby="svc-maint">
+            <h3 id="svc-maint">Maintenance & Optimization</h3>
+            <p>Backups, updates, security hardening, image & script optimization, and Core Web Vitals improvements.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects reveal" aria-labelledby="projects-heading">
+      <div class="container">
+        <h2 id="projects-heading" class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">Selected WordPress & eCommerce work (click Live Demo to open the site).</p>
+
+        <div class="projects-grid" role="list">
+
+          <!-- Project: Adikaze Waste Recycling -->
+          <article class="project-card" role="listitem" aria-labelledby="proj-adikaze">
+            <figure class="project-media">
+              <!-- recommended filenames: images/adikaze-720.jpg, images/adikaze-1200.jpg -->
+              <img src="images/adikaze-720.jpg"
+                   srcset="images/adikaze-720.jpg 720w, images/adikaze-1200.jpg 1200w"
+                   sizes="(max-width: 768px) 100vw, 420px"
+                   loading="lazy"
+                   alt="Adikaze Waste Recycling website screenshot">
+            </figure>
+
+            <div class="project-body">
+              <h3 id="proj-adikaze">Adikaze Waste Recycling</h3>
+              <p>Corporate WordPress site focused on sustainability, trust signals and clear conversion paths.</p>
+              <div class="project-buttons">
+                <a class="btn primary" href="https://www.adikazewasterecycling.com/" target="_blank" rel="noopener">Live Demo</a>
+                <a class="btn ghost" href="#contact">Work Like This</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project: IEC Services -->
+          <article class="project-card" role="listitem" aria-labelledby="proj-iec">
+            <figure class="project-media">
+              <img src="images/iec-720.jpg"
+                   srcset="images/iec-720.jpg 720w, images/iec-1200.jpg 1200w"
+                   sizes="(max-width: 768px) 100vw, 420px"
+                   loading="lazy"
+                   alt="IEC Services website screenshot">
+            </figure>
+
+            <div class="project-body">
+              <h3 id="proj-iec">IEC Services</h3>
+              <p>Professional services site with strong content hierarchy and lead generation focus.</p>
+              <div class="project-buttons">
+                <a class="btn primary" href="https://iecservices.org/" target="_blank" rel="noopener">Live Demo</a>
+                <a class="btn ghost" href="#contact">Work Like This</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project: Milton High School -->
+          <article class="project-card" role="listitem" aria-labelledby="proj-milton">
+            <figure class="project-media">
+              <img src="images/milton-720.jpg"
+                   srcset="images/milton-720.jpg 720w, images/milton-1200.jpg 1200w"
+                   sizes="(max-width: 768px) 100vw, 420px"
+                   loading="lazy"
+                   alt="Milton High School website screenshot">
+            </figure>
+
+            <div class="project-body">
+              <h3 id="proj-milton">Milton High School</h3>
+              <p>Accessible and fast educational site designed for families and staff with clear navigation.</p>
+              <div class="project-buttons">
+                <a class="btn primary" href="https://miltonhighschool.ng/" target="_blank" rel="noopener">Live Demo</a>
+                <a class="btn ghost" href="#contact">Work Like This</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project: Boxed Water NG -->
+          <article class="project-card" role="listitem" aria-labelledby="proj-boxed">
+            <figure class="project-media">
+              <img src="images/boxedwater-720.jpg"
+                   srcset="images/boxedwater-720.jpg 720w, images/boxedwater-1200.jpg 1200w"
+                   sizes="(max-width: 768px) 100vw, 420px"
+                   loading="lazy"
+                   alt="Boxed Water eCommerce store screenshot">
+            </figure>
+
+            <div class="project-body">
+              <h3 id="proj-boxed">Boxed Water NG</h3>
+              <p>WooCommerce store with product storytelling, optimized images and fast checkout UX.</p>
+              <div class="project-buttons">
+                <a class="btn primary" href="https://boxedwater.ng/" target="_blank" rel="noopener">Live Demo</a>
+                <a class="btn ghost" href="#contact">Work Like This</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="section testimonials reveal" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <h2 id="testimonials-heading" class="section-title">What Clients Say</h2>
+        <div class="testimonial-grid">
+          <blockquote class="testimonial-card">
+            <p>“Natalie made our WordPress site fast and beautiful — conversions improved within weeks.”</p>
+            <cite class="client-name">— Sarah O., IEC Services</cite>
+          </blockquote>
+
+          <blockquote class="testimonial-card">
+            <p>“Professional, timely, and detail-oriented. Highly recommended for WooCommerce projects.”</p>
+            <cite class="client-name">— John M., Boxed Water</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact reveal" aria-labelledby="contact-heading">
+      <div class="container contact-inner">
+        <h2 id="contact-heading" class="section-title">Contact</h2>
+        <p class="section-subtitle">Ready to start? Send a quick message and I’ll respond within 24 hours.</p>
+
+        <div class="contact-cards">
+          <div class="contact-card" role="region" aria-label="Email">
+            <h4>Email</h4>
+            <p><a href="mailto:natalieshawweb@gmail.com">natalieshawweb@gmail.com</a></p>
+          </div>
+
+          <div class="contact-card" role="region" aria-label="WhatsApp">
+            <h4>WhatsApp</h4>
+            <p><a href="https://wa.me/2347062320132" target="_blank" rel="noopener">+234 706 232 0132</a></p>
+          </div>
+        </div>
+
+        <div style="margin-top:1rem;text-align:center;">
+          <a class="btn primary large" href="mailto:natalieshawweb@gmail.com">Send Email</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <p>© 2025 Natalie Shaw. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- REVEAL ON SCROLL SCRIPT -->
+  <script>
+    // Efficient reveal on scroll (debounced via requestAnimationFrame)
+    const reveals = document.querySelectorAll('.reveal, .project-card, .service-card, .testimonial-card');
+    function reveal() {
+      const windowH = window.innerHeight;
+      reveals.forEach(el => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < windowH - 100) el.classList.add('active');
+      });
+    }
+    window.addEventListener('scroll', () => requestAnimationFrame(reveal));
+    window.addEventListener('resize', () => requestAnimationFrame(reveal));
+    document.addEventListener('DOMContentLoaded', () => {
+      reveal();
+      // ensure keyboard focus styles show when tabbing
+      document.body.classList.add('js-ready');
+    });
+  </script>
+</body>
+</html>
